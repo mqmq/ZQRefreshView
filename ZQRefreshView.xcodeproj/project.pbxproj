@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F32AB111EBB3A53009EFE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32AB101EBB3A53009EFE08 /* AppDelegate.swift */; };
+		1F32AB131EBB3A53009EFE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32AB121EBB3A53009EFE08 /* ViewController.swift */; };
+		1F32AB161EBB3A53009EFE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F32AB141EBB3A53009EFE08 /* Main.storyboard */; };
+		1F32AB181EBB3A53009EFE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F32AB171EBB3A53009EFE08 /* Assets.xcassets */; };
+		1F32AB1B1EBB3A53009EFE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F32AB191EBB3A53009EFE08 /* LaunchScreen.storyboard */; };
+		1F32AB261EBB3A53009EFE08 /* ZQRefreshViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32AB251EBB3A53009EFE08 /* ZQRefreshViewTests.swift */; };
+		1F32AB311EBB3A53009EFE08 /* ZQRefreshViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32AB301EBB3A53009EFE08 /* ZQRefreshViewUITests.swift */; };
+		1F32AB401EBB3AD6009EFE08 /* ZQStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32AB3F1EBB3AD6009EFE08 /* ZQStripView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F32AB221EBB3A53009EFE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F32AB051EBB3A53009EFE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F32AB0C1EBB3A53009EFE08;
+			remoteInfo = ZQRefreshView;
+		};
+		1F32AB2D1EBB3A53009EFE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F32AB051EBB3A53009EFE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F32AB0C1EBB3A53009EFE08;
+			remoteInfo = ZQRefreshView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F32AB0D1EBB3A53009EFE08 /* ZQRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F32AB101EBB3A53009EFE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F32AB121EBB3A53009EFE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F32AB151EBB3A53009EFE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F32AB171EBB3A53009EFE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F32AB1A1EBB3A53009EFE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F32AB1C1EBB3A53009EFE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F32AB211EBB3A53009EFE08 /* ZQRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F32AB251EBB3A53009EFE08 /* ZQRefreshViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshViewTests.swift; sourceTree = "<group>"; };
+		1F32AB271EBB3A53009EFE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F32AB2C1EBB3A53009EFE08 /* ZQRefreshViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQRefreshViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F32AB301EBB3A53009EFE08 /* ZQRefreshViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshViewUITests.swift; sourceTree = "<group>"; };
+		1F32AB321EBB3A53009EFE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F32AB3F1EBB3AD6009EFE08 /* ZQStripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZQStripView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F32AB0A1EBB3A53009EFE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB1E1EBB3A53009EFE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB291EBB3A53009EFE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F32AB041EBB3A53009EFE08 = {
+			isa = PBXGroup;
+			children = (
+				1F32AB0F1EBB3A53009EFE08 /* ZQRefreshView */,
+				1F32AB241EBB3A53009EFE08 /* ZQRefreshViewTests */,
+				1F32AB2F1EBB3A53009EFE08 /* ZQRefreshViewUITests */,
+				1F32AB0E1EBB3A53009EFE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F32AB0E1EBB3A53009EFE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F32AB0D1EBB3A53009EFE08 /* ZQRefreshView.app */,
+				1F32AB211EBB3A53009EFE08 /* ZQRefreshViewTests.xctest */,
+				1F32AB2C1EBB3A53009EFE08 /* ZQRefreshViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F32AB0F1EBB3A53009EFE08 /* ZQRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				1F32AB3E1EBB3A7F009EFE08 /* refreshView */,
+				1F32AB101EBB3A53009EFE08 /* AppDelegate.swift */,
+				1F32AB121EBB3A53009EFE08 /* ViewController.swift */,
+				1F32AB141EBB3A53009EFE08 /* Main.storyboard */,
+				1F32AB171EBB3A53009EFE08 /* Assets.xcassets */,
+				1F32AB191EBB3A53009EFE08 /* LaunchScreen.storyboard */,
+				1F32AB1C1EBB3A53009EFE08 /* Info.plist */,
+			);
+			path = ZQRefreshView;
+			sourceTree = "<group>";
+		};
+		1F32AB241EBB3A53009EFE08 /* ZQRefreshViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F32AB251EBB3A53009EFE08 /* ZQRefreshViewTests.swift */,
+				1F32AB271EBB3A53009EFE08 /* Info.plist */,
+			);
+			path = ZQRefreshViewTests;
+			sourceTree = "<group>";
+		};
+		1F32AB2F1EBB3A53009EFE08 /* ZQRefreshViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F32AB301EBB3A53009EFE08 /* ZQRefreshViewUITests.swift */,
+				1F32AB321EBB3A53009EFE08 /* Info.plist */,
+			);
+			path = ZQRefreshViewUITests;
+			sourceTree = "<group>";
+		};
+		1F32AB3E1EBB3A7F009EFE08 /* refreshView */ = {
+			isa = PBXGroup;
+			children = (
+				1F32AB3F1EBB3AD6009EFE08 /* ZQStripView.swift */,
+			);
+			path = refreshView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F32AB0C1EBB3A53009EFE08 /* ZQRefreshView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F32AB351EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshView" */;
+			buildPhases = (
+				1F32AB091EBB3A53009EFE08 /* Sources */,
+				1F32AB0A1EBB3A53009EFE08 /* Frameworks */,
+				1F32AB0B1EBB3A53009EFE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQRefreshView;
+			productName = ZQRefreshView;
+			productReference = 1F32AB0D1EBB3A53009EFE08 /* ZQRefreshView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F32AB201EBB3A53009EFE08 /* ZQRefreshViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F32AB381EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshViewTests" */;
+			buildPhases = (
+				1F32AB1D1EBB3A53009EFE08 /* Sources */,
+				1F32AB1E1EBB3A53009EFE08 /* Frameworks */,
+				1F32AB1F1EBB3A53009EFE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F32AB231EBB3A53009EFE08 /* PBXTargetDependency */,
+			);
+			name = ZQRefreshViewTests;
+			productName = ZQRefreshViewTests;
+			productReference = 1F32AB211EBB3A53009EFE08 /* ZQRefreshViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F32AB2B1EBB3A53009EFE08 /* ZQRefreshViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F32AB3B1EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshViewUITests" */;
+			buildPhases = (
+				1F32AB281EBB3A53009EFE08 /* Sources */,
+				1F32AB291EBB3A53009EFE08 /* Frameworks */,
+				1F32AB2A1EBB3A53009EFE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F32AB2E1EBB3A53009EFE08 /* PBXTargetDependency */,
+			);
+			name = ZQRefreshViewUITests;
+			productName = ZQRefreshViewUITests;
+			productReference = 1F32AB2C1EBB3A53009EFE08 /* ZQRefreshViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F32AB051EBB3A53009EFE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangqq.com;
+				TargetAttributes = {
+					1F32AB0C1EBB3A53009EFE08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFK87FW4DR;
+						ProvisioningStyle = Automatic;
+					};
+					1F32AB201EBB3A53009EFE08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFK87FW4DR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F32AB0C1EBB3A53009EFE08;
+					};
+					1F32AB2B1EBB3A53009EFE08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFK87FW4DR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F32AB0C1EBB3A53009EFE08;
+					};
+				};
+			};
+			buildConfigurationList = 1F32AB081EBB3A53009EFE08 /* Build configuration list for PBXProject "ZQRefreshView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F32AB041EBB3A53009EFE08;
+			productRefGroup = 1F32AB0E1EBB3A53009EFE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F32AB0C1EBB3A53009EFE08 /* ZQRefreshView */,
+				1F32AB201EBB3A53009EFE08 /* ZQRefreshViewTests */,
+				1F32AB2B1EBB3A53009EFE08 /* ZQRefreshViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F32AB0B1EBB3A53009EFE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F32AB1B1EBB3A53009EFE08 /* LaunchScreen.storyboard in Resources */,
+				1F32AB181EBB3A53009EFE08 /* Assets.xcassets in Resources */,
+				1F32AB161EBB3A53009EFE08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB1F1EBB3A53009EFE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB2A1EBB3A53009EFE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F32AB091EBB3A53009EFE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F32AB131EBB3A53009EFE08 /* ViewController.swift in Sources */,
+				1F32AB401EBB3AD6009EFE08 /* ZQStripView.swift in Sources */,
+				1F32AB111EBB3A53009EFE08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB1D1EBB3A53009EFE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F32AB261EBB3A53009EFE08 /* ZQRefreshViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32AB281EBB3A53009EFE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F32AB311EBB3A53009EFE08 /* ZQRefreshViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F32AB231EBB3A53009EFE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F32AB0C1EBB3A53009EFE08 /* ZQRefreshView */;
+			targetProxy = 1F32AB221EBB3A53009EFE08 /* PBXContainerItemProxy */;
+		};
+		1F32AB2E1EBB3A53009EFE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F32AB0C1EBB3A53009EFE08 /* ZQRefreshView */;
+			targetProxy = 1F32AB2D1EBB3A53009EFE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F32AB141EBB3A53009EFE08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F32AB151EBB3A53009EFE08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F32AB191EBB3A53009EFE08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F32AB1A1EBB3A53009EFE08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F32AB331EBB3A53009EFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F32AB341EBB3A53009EFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F32AB361EBB3A53009EFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F32AB371EBB3A53009EFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F32AB391EBB3A53009EFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQRefreshView.app/ZQRefreshView";
+			};
+			name = Debug;
+		};
+		1F32AB3A1EBB3A53009EFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQRefreshView.app/ZQRefreshView";
+			};
+			name = Release;
+		};
+		1F32AB3C1EBB3A53009EFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZQRefreshView;
+			};
+			name = Debug;
+		};
+		1F32AB3D1EBB3A53009EFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FFK87FW4DR;
+				INFOPLIST_FILE = ZQRefreshViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.test.ZQRefreshViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZQRefreshView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F32AB081EBB3A53009EFE08 /* Build configuration list for PBXProject "ZQRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F32AB331EBB3A53009EFE08 /* Debug */,
+				1F32AB341EBB3A53009EFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F32AB351EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F32AB361EBB3A53009EFE08 /* Debug */,
+				1F32AB371EBB3A53009EFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F32AB381EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F32AB391EBB3A53009EFE08 /* Debug */,
+				1F32AB3A1EBB3A53009EFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F32AB3B1EBB3A53009EFE08 /* Build configuration list for PBXNativeTarget "ZQRefreshViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F32AB3C1EBB3A53009EFE08 /* Debug */,
+				1F32AB3D1EBB3A53009EFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F32AB051EBB3A53009EFE08 /* Project object */;
+}
